@@ -25,7 +25,7 @@ import KMPNativeCoroutinesCombine
         self.presenter = presenter
         
         createPublisher(for: presenter.uiState)
-            .subscribe(on: DispatchQueue.main)
+            .receive(on: DispatchQueue.main)
             .assertNoFailure()
             .eraseToAnyPublisher()
             .assign(to: &$uiState)
