@@ -28,11 +28,14 @@ build/*
 shared/build/*
 androidApp/build/*
 iosApp/build/*
+.idea/*
+.gradle/*
 
 
 # iOS ignore
 *.DS_Store
-iosApp/Pods/*
+*iosApp/Pods/*
+*iosApp/iosApp.xcworkspace*
 *.pbxuser
 !default.pbxuser
 *.mode1v3
