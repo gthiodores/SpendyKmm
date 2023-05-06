@@ -18,7 +18,22 @@ class InMemorySpendingRepository(private val dispatchers: DispatcherProvider) : 
     private val _mutableSpendings: MutableStateFlow<List<Spending>> = MutableStateFlow(
         listOf(
             Spending(amount = 1_200.0, date = Clock.System.now()),
-            Spending(amount = 1_000.0, date = Instant.DISTANT_PAST),
+            Spending(amount = 1_000.0, date = Clock.System.now()),
+            Spending(amount = 1_100.0, date = Clock.System.now()),
+            Spending(amount = 100.0, date = Clock.System.now()),
+            Spending(amount = 140.0, date = Clock.System.now()),
+            Spending(amount = 120.0, date = Clock.System.now()),
+            Spending(amount = 1_300.0, date = Clock.System.now()),
+            Spending(amount = 1_400.0, date = Clock.System.now()),
+            Spending(amount = 1_500.0, date = Clock.System.now()),
+            Spending(amount = 1_600.0, date = Clock.System.now()),
+            Spending(amount = 1_700.0, date = Clock.System.now()),
+            Spending(amount = 1_800.0, date = Clock.System.now()),
+            Spending(amount = 1_900.0, date = Clock.System.now()),
+            Spending(amount = 1_940.0, date = Clock.System.now()),
+            Spending(amount = 1_230.0, date = Clock.System.now()),
+            Spending(amount = 1_450.0, date = Clock.System.now()),
+            Spending(amount = 1_690.0, date = Instant.DISTANT_PAST),
         )
     )
     val spendings: Flow<List<Spending>> = _mutableSpendings

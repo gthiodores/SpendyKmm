@@ -2,8 +2,8 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     id("com.android.library")
-    id("com.google.devtools.ksp") version "1.8.21-1.0.11"
-    id("com.rickclephas.kmp.nativecoroutines") version "1.0.0-ALPHA-8"
+    id("com.google.devtools.ksp") version "1.8.21-1.0.11" apply(true)
+    id("com.rickclephas.kmp.nativecoroutines") version "1.0.0-ALPHA-8" apply(true)
 }
 
 kotlin {
@@ -24,6 +24,8 @@ kotlin {
         version = "1.0"
         ios.deploymentTarget = "15.0"
         podfile = project.file("../iosApp/Podfile")
+        pod("KMPNativeCoroutinesAsync", "1.0.0-ALPHA-8")
+        pod("KMPNativeCoroutinesCombine", "1.0.0-ALPHA-8")
         framework {
             baseName = "shared"
         }

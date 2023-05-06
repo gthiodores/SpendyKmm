@@ -9,7 +9,8 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '15.0'
-                
+    spec.dependency 'KMPNativeCoroutinesAsync', '1.0.0-ALPHA-8'
+    spec.dependency 'KMPNativeCoroutinesCombine', '1.0.0-ALPHA-8'
                 
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':shared',
