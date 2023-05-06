@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml:2:13-83
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml:2:13-83
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml:2:13-83
+	package
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+		ADDED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml:2:13-83
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+	xmlns:android
+		ADDED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml:2:23-81
+uses-sdk
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml reason: use-sdk injection requested
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+		ADDED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+	android:minSdkVersion
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+		ADDED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml
+		INJECTED from /Users/lucy/StudioProjects/SpendyKmm/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11501479395135208641.xml

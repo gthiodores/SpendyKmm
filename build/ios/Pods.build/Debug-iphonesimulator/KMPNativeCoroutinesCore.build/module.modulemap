@@ -1,0 +1,11 @@
+framework module KMPNativeCoroutinesCore {
+  umbrella header "KMPNativeCoroutinesCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KMPNativeCoroutinesCore.Swift {
+    header "KMPNativeCoroutinesCore-Swift.h"
+    requires objc
+}
